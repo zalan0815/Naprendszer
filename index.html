@@ -9,46 +9,59 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="images/nap.png" alt="" width="100" height="" class="d-inline-block align-text-center">
-                Nap
-               </a>
-            <a class="navbar-brand" href="#">
-                <img src="images/merkur.png" alt="" width="60" height="" class="d-inline-block align-text-center">
-                Merkúr
-               </a>
-            <a class="navbar-brand" href="#">
-                <img src="images/venusz.png" alt="" width="60" height="" class="d-inline-block align-text-center">
-                Vénusz
-               </a>
-            <a class="navbar-brand" href="#">
-                <img src="images/fold.png" alt="" width="60" height="" class="d-inline-block align-text-center">
-                Föld 
-               </a>
-            <a class="navbar-brand" href="#">
-                <img src="images/mars.png" alt="" width="60" height="" class="d-inline-block align-text-center">
-                Mars
-               </a>
-            <a class="navbar-brand" href="#">
-                <img src="images/jupiter.png" alt="" width="75" height="" class="d-inline-block align-text-center">
-                Jupiter
-               </a>
-            <a class="navbar-brand" href="#">
-                <img src="images/szaturnusz.png" alt="" width="110" height="" class="d-inline-block align-text-center">
-                Szaturnusz
-               </a> 
-            <a class="navbar-brand" href="#">
-                <img src="images/uranusz.png" alt="" width="125" height="" class="d-inline-block align-text-center">
-                Uránusz
-               </a> 
-            <a class="navbar-brand" href="#">
-                <img src="images/neptunusz.png" alt="" width="75" height="" class="d-inline-block align-text-center">
-                Neptunusz
-               </a> 
+    <p>
+        <button type="button" class="btn btn-secondary">
+            Főoldal
+        </button>
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Bolygók
+        </button>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body p-0">
+            <nav class="navbar navbar-dark" id="bolygok">
+                <div class="container-fluid p-0">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/nap.png" alt="" width="100" height="" class="d-inline-block align-text-center">
+                            Nap
+                        </a>
+                        <a class="navbar-brand" href="#">
+                            <img src="images/merkur.png" alt="" width="60" height="" class="d-inline-block align-text-center">
+                            Merkúr
+                        </a>
+                        <a class="navbar-brand" href="#">
+                            <img src="images/venusz.png" alt="" width="60" height="" class="d-inline-block align-text-center">
+                            Vénusz
+                        </a>
+                        <a class="navbar-brand" href="#">
+                            <img src="images/fold.png" alt="" width="60" height="" class="d-inline-block align-text-center">
+                            Föld 
+                        </a>
+                        <a class="navbar-brand" href="#">
+                            <img src="images/mars.png" alt="" width="60" height="" class="d-inline-block align-text-center">
+                            Mars
+                        </a>
+                        <a class="navbar-brand" href="#">
+                            <img src="images/jupiter.png" alt="" width="75" height="" class="d-inline-block align-text-center">
+                            Jupiter
+                        </a>
+                        <a class="navbar-brand" href="#">
+                            <img src="images/szaturnusz.png" alt="" width="110" height="" class="d-inline-block align-text-center">
+                            Szaturnusz
+                        </a> 
+                        <a class="navbar-brand" href="#">
+                            <img src="images/uranusz.png" alt="" width="125" height="" class="d-inline-block align-text-center">
+                            Uránusz
+                        </a> 
+                        <a class="navbar-brand" href="#">
+                            <img src="images/neptunusz.png" alt="" width="75" height="" class="d-inline-block align-text-center">
+                            Neptunusz
+                        </a>
+                </div>
+              </nav>
         </div>
-      </nav>
+      </div>
+    
     
     <script src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
 </body>
