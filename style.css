@@ -7,3 +7,19 @@
 .navbar-brand:hover{
        opacity: 0.8 !important;
 }
+.w-70 {
+    width: 70%;
+}
+.w-99 {
+    width: 94.5%;
+}
+.text-justify {
+    text-align: justify;
+}
+a {
+    color: lightblue;
+    text-decoration: underline;
+}
+    a:hover {
+        color: blue;
+    }
