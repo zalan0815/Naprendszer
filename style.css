@@ -1,3 +1,6 @@
+body {
+    color: white !important;
+}
 #bolygok {
     background-image: url(images/űrháttér.jpg);
 }
